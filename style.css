@@ -1,0 +1,135 @@
+/* vamos criar um estilo bem simples de um menu tradicional, que pode ser customizado a sua maneira */
+
+/* ====== RESET BÁSICO ====== */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/* ====== VARIABLES ====== */
+:root {
+  /* base color variation */
+  --hue: 240;
+  /* HSL color mode */
+  --base-color: hsl(var(--hue) 100% 25%);
+  --base-color-second: hsl(var(--hue) 65% 88%);
+  --base-color-alt: hsl(var(--hue) 57% 53%); 
+}
+
+/* ====== BASE ====== */
+body {
+  -webkit-font-smoothing: antialiased; /* deixa a cores mais leves */
+}
+
+/* ====== LAYOUT ====== */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.title {
+  font: 700 1.875rem 'Verdana', sans-serif;
+  color: #050505;
+  -webkit-font-smoothing: auto;
+}
+
+.toggle {
+  color: var(--base-color);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* ====== HEADER ====== */
+#header {
+  display: flex;
+  background-color: rgb(230, 217, 243);
+  height: 4.5rem; /* 72px */
+  width: 100%;
+}
+
+/* ====== NAVIGATION ====== */
+/* ====== É aqui que acontece tudo ====== */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 4.5rem;
+}
+
+nav ul li {
+  text-align: center;
+}
+
+nav ul li a {
+  transition: color 0.2s;
+  position: relative;
+}
+
+nav ul li a:hover {
+  color: purple;
+}
+
+nav ul li a::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background-color: purple;
+  position: absolute;
+  left: 0;
+  bottom: -1.5rem;
+  transition: width 0.2s;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+nav .menu {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* Mostrar menu */
+nav.show .menu {
+  opacity: 1;
+  visibility: visible;
+  background-color: var(--base-color-second);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-content: center;
+}
+
+nav.show ul.grid {
+  gap: 4rem;
+}
+
+/* TOGGLE MENU */
+nav .icon-close {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  right: 1.5rem;
+}
+
+nav.show .icon-close {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
+
