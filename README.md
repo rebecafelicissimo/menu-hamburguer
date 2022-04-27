@@ -1,4 +1,4 @@
-![Logo of the project](http://logo_link)
+![Logo of the project](https://github.com/rebecafelicissimo/menu-hamburguer/blob/main/readme_images/menu_hamburguer.png)
  
 ## Menu Hamburguer
  
@@ -7,61 +7,38 @@ Nesse repositório foi criado um menu hamburguer simples, mas totalmente customi
 Não sei você, mas eu já assisti a vários tutoriais e nunca achei um legal e fácil de entender até o de hoje. 
 Esse menu hamburguer foi feito em cima de um dos projeto NLW da Rocketseat e ficou bem bacana.  
  
-## Technology 
+## Tecnologia 
  
-Here are the technologies used in this project.
+Aqui utilizamos as tecnologias:
  
-* Ruby version  x.x.x
-* Rails version x.x.x
-* ...
+* HTML5
+* CSS3
+* JavaScript
  
  
-## Services Used
+## Serviços Utilizados
  
 * Github
-* ...
+ 
+## Como utilizar
+
+É bem simples, basta fazer um clone desse repositório na sua máquina e seja feliz. :D
+
+ 
+## Pontos importantes: 
+Ao invés de imagens, utilizei ícones baixados do site https://icomoon.io/ 
+Na parte de cores, em variáveis, peguei a ideia de utilizar o hsl porque quando você mudar o --hue, automaticamente as cores dos ícones irão mudar, achei legal. 
+
+## Rocketseat
+Caso vocês queiram ver todo o site desenvolvido onde esse menu foi criado, acessem o site da rocketseat: https://www.rocketseat.com.br/ e procurem pelo NLW 6 edição. Vale a pena conferir.
+Github com o projeto: https://github.com/rocketseat-education
+
+Eu apenas retirei uma parte que sei que muita gente procura. :D
+
+ 
+## Autora
+ 
+* **Rebeca Felicissimo**: @rebecafelicissimo (https://github.com/rebecafelicissimo)
  
  
-## Ruby Gems
-...
- 
-## Getting started
- 
-* To install gems:
->    $ bundle install
-* To create the bank and do as migrations:
->    $ rake db:create db:migrate db:seed
-* To run the project:
->    $ rails s
- 
-## How to use
- 
-Here will be the images and descriptions. Principal content.
- 
- 
-## Features
- 
-  - Here will be the features.
- 
- 
-## Links
- 
-  - Link of deployed application: (if has been deployed)
-  - Repository: https://link_of_repository
-    - In case of sensitive bugs like security vulnerabilities, please contact
-      YOUR EMAIL directly instead of using issue tracker. We value your effort
-      to improve the security and privacy of this project!
- 
- 
-## Versioning
- 
-1.0.0.0
- 
- 
-## Authors
- 
-* **YOUR NAME**: @YOUR_GITHUB_NICKNAME (https://github.com/YOUR_GITHUB_NICKNAME)
- 
- 
-Please follow github and join us!
-Thanks to visiting me and good coding!
+Espero que gostem. :D
