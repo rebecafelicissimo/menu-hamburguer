@@ -19,6 +19,7 @@ Aqui utilizamos as tecnologias:
 ## Serviços Utilizados
  
 * Github
+* VSCode
  
 ## Como utilizar
 
